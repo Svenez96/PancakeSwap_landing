@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    padding: 24px;
+    background-color: #27262c;
+}
+
+.advertising__title{
+    text-align: center;
+    font-size:43px;
+    color: #f4eeff;
+    font-weight: 600;
+    margin-top: 50px;
+    line-height: 1.1;
+background-color: #27262c;
+}
+
+.advertising__analitics{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 0;
+    margin-top: 80px;
+}
+
+.advertising__analitics_box{
+    display: flex;
+   justify-content: center;
+    border-style: solid;
+    border-width: 1px 1px 2px;
+    border-radius: 48px;
+    text-align: center;
+    width: 210px;
+    height: 146px;  
+    flex-direction: column;
+}
+
+
+.advertising__analitics_box h3{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.advertising__analitics_box span{
+    font-size: 40px;
+    line-height: 48px;
+    background: transparent;
+    margin-top: 4px;
+}
+
+
+.advertising__analitics_box p{
+    font-size: 16px;
+    line-height: 150%;
+    vertical-align: middle;
+    color:#b8add2  ;
+}
+
+.advertising__analitics_box:first-child{
+    color: #48d0db;
+    background-color: #13393c;
+    border-color: #0c474d;
+}
+
+.advertising__analitics_box:nth-child(2){
+    color: #a881fc;
+    background-color: #322b48;
+    border-color: #383241;
+}
+
+.advertising__analitics_box:nth-child(3){
+    color: #72b8f1;
+    background-color: #0b3557;
+    border-color: #0e4572;
+}
+
+.advertising__analitics_box:last-child{
+    color: #fb7ec1;
+    background-color: #551146;
+    border-color: #7b194d;
+}
+
+.advertising__links{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top:60px ;
+    margin-bottom:120px ;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.advertising__links_social{
+    text-align: center;
+    height:128px ;
+    width:111px ;   
+}
+
+.advertising__links_social a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    width: 111px;
+    height: 128px;
+    border-radius: 24px;
+    border-width: 1px 1px 2px;
+    border-style: solid;
+    border-color: transparent;
+    transition: 0.3s;
+    padding: 12px;
+    color: #b8add2;  
+}
+
+.advertising__links_social a:hover{
+    background-color: #13393c;
+    border-color: #0c474d;
+}
+
+.advertising__links_social a img{
+   max-width: 100%;  
+}
+
+.text_description{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 8px;
+
+}
